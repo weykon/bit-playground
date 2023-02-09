@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "axios": "^1.2.6"
+  }
+}

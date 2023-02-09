@@ -1,0 +1,10 @@
+[book]
+authors = ["weykon"]
+language = "en"
+multilingual = false
+src = "doc"
+title = "Bit Playground"
+
+[output.html]
+git-repository-url="https://github.com/weykon/bit-playground.git"
+git-repository-icon = "fa-github"
