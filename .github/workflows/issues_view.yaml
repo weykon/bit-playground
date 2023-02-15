@@ -10,7 +10,7 @@ jobs:
       run: |
         npm install
     - name: Run Script
-        using: "node16"
-        main: "script.js"
-        with:
-          token: {{secrets.THIS_REPO_TOKEN}}
+      using: "node16"
+      main: "script.js"
+      with:
+        token: {{secrets.THIS_REPO_TOKEN}}
