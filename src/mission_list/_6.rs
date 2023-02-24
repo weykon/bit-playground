@@ -3,7 +3,6 @@
 pub fn check_power_from_two(mut x: u32) -> bool {
     let mut one_count = 0;
     while x > 0 {
-        println!("{}",x & 1,);
         if x & 1 == 1 {
             one_count += 1;
         }
